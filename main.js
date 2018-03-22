@@ -34,10 +34,10 @@ var material = new THREE.ShaderMaterial({
   fog:true
 });
 
-// var plane = new THREE.Mesh(new THREE.PlaneGeometry(planeSize, planeSize, planeDefinition, planeDefinition), material);
-// plane.rotation.x -= Math.PI * .50;
+var plane = new THREE.Mesh(new THREE.PlaneGeometry(planeSize, planeSize, planeDefinition, planeDefinition), material);
+plane.rotation.x -= Math.PI * .50;
 
-// scene.add(plane);
+scene.add(plane);
 
 var geometry = new THREE.Geometry();
 
