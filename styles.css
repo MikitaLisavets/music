@@ -3,8 +3,8 @@ body {
   margin: 0px;
   overflow: hidden;
   background-image: radial-gradient(ellipse farthest-corner at center top, #23233f 0%, #000000 60%);
-  background-image: url(bg.jpg);
-    background-size: cover;
+  // background-image: url(bg.jpg);
+  // background-size: cover;
   background-position: top center;
 }
 .wrapper {
